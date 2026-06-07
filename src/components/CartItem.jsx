@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { toast } from "react-toastify"; 
-import { remove } from '../redux/slices/cartSlice'; 
+import { remove } from '../redux/slices/CartSlice'; 
 
 export const CartItem = ({ item }) => {
   const dispatch = useDispatch();
