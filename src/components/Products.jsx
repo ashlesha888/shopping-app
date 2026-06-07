@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { toast } from "react-toastify"; 
-import { add, remove } from '../redux/slices/cartSlice'; 
+import { add, remove } from '../redux/slices/CartSlice'; 
 
 export const Products = ({ post }) => {
   // Directly targeting state.cart fixes the selector warning
