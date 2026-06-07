@@ -1,16 +1,88 @@
-# React + Vite
+# Shopping App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern shopping cart application built with React, Redux Toolkit, and React Router. Users can browse products, add items to their cart, remove items, and receive real-time notifications for cart actions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Browse products
+* Add products to cart
+* Remove products from cart
+* Cart item management using Redux Toolkit
+* Toast notifications for user actions
+* Responsive user interface
+* Client-side routing with React Router
+* Fast Vite-powered development and build process
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Redux Toolkit
+* React Redux
+* React Router DOM
+* React Toastify
+* Vite
+* CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone https://github.com/ashlesha888/shopping-app.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd shopping-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Live Demo
+
+https://shopping-app-78zf.vercel.app/
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── redux/
+│   ├── slices/
+│   └── Store.js
+├── App.jsx
+└── main.jsx
+```
+
+## Learning Outcomes
+
+This project helped practice:
+
+* React component architecture
+* State management with Redux Toolkit
+* Routing using React Router
+* Managing global application state
+* Deploying React applications with Vercel
+* Version control using Git and GitHub
+
+## Author
+
+Ashlesha Gautam
